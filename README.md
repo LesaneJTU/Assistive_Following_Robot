@@ -83,10 +83,9 @@ The objective of AutoNanoBot is to reduce physical strain by helping users carry
 | **ArduinoBLE Library** | Enables Bluetooth Low Energy communication. |
 | **WiFi Library (ESP32)** | Enables Wi-Fi connectivity for manual control. |
 | **BluetoothSerial Library (ESP32)** | For simple Bluetooth communication and debugging. |
-| **Adafruit_Sensor Library** | Simplifies interaction with sensors. |
-| **Servo Library** | Controls servo motor movement (if used). |
 | **Wire Library** | Enables I²C communication with sensors. |
-| **EEPROM Library** | Stores small configuration data. |
+| **Onshape** | For CAD designing of the model |
+| **CorelDRAW** | Laser-Cut Application |
 
 ---
 
@@ -144,6 +143,9 @@ The objective of AutoNanoBot is to reduce physical strain by helping users carry
 3. Optionally enable Wi-Fi for manual control.  
 4. Place items on the robot platform.  
 5. Walk and allow the robot to follow safely, observing obstacle avoidance.
+
+### **Circuit Diagram**
+<img width="610" height="672" alt="Circuit-Diagram" src="https://github.com/user-attachments/assets/aa720eaf-116b-46a1-befd-5499d46022b0" />
 
 ---
 
