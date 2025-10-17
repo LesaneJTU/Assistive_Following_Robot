@@ -149,7 +149,7 @@ The objective of AutoNanoBot is to reduce physical strain by helping users carry
 
 ### **Software Setup**
 1. Install [Arduino IDE](https://www.arduino.cc/en/software) and add **ESP32 board support**.  
-2. Install the required libraries: ArduinoBLE, WiFi (ESP32), BluetoothSerial (ESP32), Adafruit_Sensor, Servo, Wire, EEPROM.  
+2. Install the required libraries: ArduinoBLE, WiFi (ESP32), BluetoothSerial (ESP32), Adafruit_Sensor.  
 3. Connect microcontrollers via USB and upload their respective sketches.  
 4. Set up the MIT App Inventor mobile app and connect via **Bluetooth LE** for automatic following or **Wi-Fi** for manual control.  
 
