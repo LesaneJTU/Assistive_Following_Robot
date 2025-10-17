@@ -1,6 +1,6 @@
 #include <ArduinoBLE.h>
 
-// === Motor Pins ===
+
 const int ENA = 9;
 const int IN1 = 10;
 const int IN2 = 11;
@@ -8,18 +8,18 @@ const int ENB = 6;
 const int IN3 = 7;
 const int IN4 = 8;
 
-// === Ultrasonic Pins ===
+
 const int trigFront = 2;
 const int echoFront = 3;
 
-// === Variables ===
+
 bool autoMode = true;
 bool trackingActive = false;
 long distanceFront;
 int rssiValue = 0;
-float avgRSSI = -70; // start with a neutral value
+float avgRSSI = -70; 
 
-// === Bluetooth Setup ===
+
 BLEService robotService("12345678-1234-1234-1234-123456789abc");
 BLEStringCharacteristic statusChar("abcd", BLERead | BLENotify, 50);
 BLECharacteristic controlChar("ef01", BLEWrite, 20);
@@ -81,7 +81,7 @@ void loop() {
         }
       }
 
-      // Read commands from ESP32
+      //ESP32
       if (Serial1.available()) {
         char cmd = Serial1.read();
         if (cmd == 'A') {
@@ -96,7 +96,7 @@ void loop() {
         }
       }
 
-      // Run automatic tracking
+      
       if (autoMode && trackingActive) {
         runSmoothTracking(central);
       }
@@ -108,7 +108,7 @@ void loop() {
   }
 }
 
-// === Get String Command from BLE Characteristic ===
+
 String getWrittenString() {
   int len = controlChar.valueLength();
   String s = "";
@@ -116,10 +116,10 @@ String getWrittenString() {
   return s;
 }
 
-// === RSSI-Based Tracking with Smoothing ===
+
 void runSmoothTracking(BLEDevice central) {
   int newRSSI = central.rssi();
-  avgRSSI = (0.8 * avgRSSI) + (0.2 * newRSSI); // weighted smoothing
+  avgRSSI = (0.8 * avgRSSI) + (0.2 * newRSSI); 
 
   Serial.print("Raw RSSI: ");
   Serial.print(newRSSI);
@@ -137,19 +137,19 @@ void runSmoothTracking(BLEDevice central) {
     return;
   }
 
-  // RSSI behavior
+ 
   if (avgRSSI < -73) {        // phone far away
     forward();
   } 
   else if (avgRSSI > -58) {   // too close
     backward();
   } 
-  else {                      // comfortable following distance
+  else {                      // safe following distance
     stopMotors();
   }
 }
 
-// === Ultrasonic ===
+
 long getDistance(int trigPin, int echoPin) {
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
@@ -160,7 +160,7 @@ long getDistance(int trigPin, int echoPin) {
   return duration * 0.034 / 2;
 }
 
-// === Motor Control ===
+
 void forward() {
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
