@@ -27,6 +27,7 @@
 |-------------------|-----------------|
 | **IMG/** | Folder containing images of the robot and components. |
 | **src/** | Source code for Arduino Nano BLE 33 Sense and ESP32. |
+| **AutoNanoBot UserManual** | User Manual |
 | **BillOfMaterial.pdf** | Complete Bill of Materials listing all components used. |
 | **Circuit-Diagram.png** | Circuit diagram showing wiring and connections of the robot. |
 | **PerformanceFlow.jpg** | Image illustrating the performance flow of the robot. |
