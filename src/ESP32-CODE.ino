@@ -1,8 +1,8 @@
 #include <WiFi.h>
 
 // Wi-Fi credentials
-const char* ssid = "E5783_9CEA";
-const char* password = "aDeTi3n8NFqBdRi3";
+const char* ssid = "E********";
+const char* password = "a********";
 
 // Web server
 WiFiServer server(80);
@@ -55,7 +55,7 @@ void setup() {
 void loop() {
   WiFiClient client = server.available();
 
-  // --- Handle Web Requests ---
+  
   if (client) {
     String request = "";
     while (client.connected()) {
@@ -70,7 +70,7 @@ void loop() {
           digitalWrite(LED_S, LOW);
           digitalWrite(LED_MODE, LOW);
 
-          // --- Command Handling ---
+          
           if (request.indexOf("GET /F") >= 0) {
             Serial.println("Forward button pressed");
             forwardActive = true;
@@ -81,7 +81,7 @@ void loop() {
             Serial.println("Backward");
             Serial2.println("B");
             digitalWrite(LED_B, HIGH);
-            forwardActive = false; // stop forward movement
+            forwardActive = false; 
           } 
           else if (request.indexOf("GET /S") >= 0) {
             Serial.println("Stop");
@@ -100,7 +100,7 @@ void loop() {
             digitalWrite(LED_MODE, HIGH);
           }
 
-          // HTTP response
+          
           client.println("HTTP/1.1 200 OK");
           client.println("Content-type:text/html");
           client.println("Connection: close");
@@ -114,7 +114,7 @@ void loop() {
     client.stop();
   }
 
-  // --- Handle Non-Blocking Forward ---
+ 
   if (forwardActive) {
     // Send forward command to Nano
     Serial2.println("F");
