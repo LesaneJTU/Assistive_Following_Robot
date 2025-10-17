@@ -1,8 +1,9 @@
 # Assistive_Following_Robot
-|cvbvn|cfcf|
+
 #  AutoNanoBot
 
 ## **Table of Contents**
+- [Repository Content](#repository-content)  
 - [About AutoNanoBot Documentation](#about-autonanobot-documentation)  
 - [Acknowledgment](#acknowledgment)  
 - [Introduction](#introduction)  
@@ -20,7 +21,19 @@
 - [Conclusion](#conclusion)  
 
 ---
+## **Repository Content**
 
+| **File / Folder** | **Description** |
+|-------------------|-----------------|
+| **IMG/** | Folder containing images of the robot and components. |
+| **Work Flow Images/** | Folder showing the robot’s workflow and step-by-step assembly. |
+| **src/** | Source code for Arduino Nano BLE 33 Sense and ESP32. |
+| **BillOfMaterial.pdf** | Complete Bill of Materials listing all components used. |
+| **Circuit-Diagram.png** | Circuit diagram showing wiring and connections of the robot. |
+| **PerformanceFlow.jpg** | Image illustrating the performance flow of the robot. |
+| **README.md** | Documentation and instructions for the AutoNanoBot project. |
+
+---
 ## **About AutoNanoBot Documentation**
 AutoNanoBot is a given project focused on building an assistive following robot designed to carry items and automatically follow its user. The robot combines both **manual** and **automatic** control using **Arduino Nano 33 BLE Sense** and **ESP32**, enabling it to detect and avoid obstacles while following a person through Bluetooth or Wi-Fi. This project demonstrates the integration of electronics, sensors, motor control, and communication systems in a real-world assistive robotics application.
 
