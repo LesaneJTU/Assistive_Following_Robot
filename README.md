@@ -12,7 +12,10 @@
 - [Project Description](#project-description)  
 - [Applications](#applications)  
 - [Performance Flow](#performance-flow)  
-- [How to Use / Setup Instructions](#how-to-use--setup-instructions)  
+- [How to Use / Setup Instructions](#how-to-use--setup-instructions)
+- [Circuit Diagram](#Circuit-Diagram)
+- [Performance Flow](#Performance-Flow)
+- [Image Of Prototype](#Image-Of-Prototype)
 - [Conclusion](#conclusion)  
 
 ---
@@ -144,13 +147,13 @@ The objective of AutoNanoBot is to reduce physical strain by helping users carry
 4. Place items on the robot platform.  
 5. Walk and allow the robot to follow safely, observing obstacle avoidance.
 
-### **Circuit Diagram**
+## **Circuit Diagram**
 <img width="610" height="672" alt="Circuit-Diagram" src="https://github.com/user-attachments/assets/aa720eaf-116b-46a1-befd-5499d46022b0" />
 
-### **Performance Flow**
+## **Performance Flow**
 ![PerformanceFlow](https://github.com/user-attachments/assets/ea4e71d6-1fa5-493a-8ae4-74ea6979159b)
 
-### **Image Of Prototype**
+## **Image Of Prototype**
 <img width="723" height="388" alt="Screenshot 2025-10-17 170346" src="https://github.com/user-attachments/assets/9b4a8d04-fe4d-46b3-8d8a-aa07c3643177" />
 
 
