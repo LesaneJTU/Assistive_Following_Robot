@@ -26,7 +26,6 @@
 | **File / Folder** | **Description** |
 |-------------------|-----------------|
 | **IMG/** | Folder containing images of the robot and components. |
-| **Work Flow Images/** | Folder showing the robot’s workflow and step-by-step assembly. |
 | **src/** | Source code for Arduino Nano BLE 33 Sense and ESP32. |
 | **BillOfMaterial.pdf** | Complete Bill of Materials listing all components used. |
 | **Circuit-Diagram.png** | Circuit diagram showing wiring and connections of the robot. |
@@ -174,4 +173,4 @@ The objective of AutoNanoBot is to reduce physical strain by helping users carry
 ---
 
 ## **Conclusion**
-AutoNanoBot demonstrates how multiple microcontrollers, communication protocols, and sensors can be combined to create a functional assistive robot. The project provides practical experience in electronics, programming, and robotics while laying the foundation for future enhancements such as camera tracking, voice control, or advanced navigation.
+AutoNanoBot demonstrates how multiple microcontrollers, communication protocols, and sensors can be combined to create a functional assistive robot. The project provides practical experience in electronics, programming, and robotics while laying the foundation for future enhancements such as camera tracking, or advanced navigation.
