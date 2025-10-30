@@ -18,6 +18,7 @@
 - [Circuit Diagram](#Circuit-Diagram)
 - [Performance Flow](#Performance-Flow)
 - [Image Of Prototype](#Image-Of-Prototype)
+- [Video Of Prototype Build](#Image-Of-Prototype-Build)
 - [Conclusion](#conclusion)  
 
 ---
@@ -170,7 +171,8 @@ The objective of AutoNanoBot is to reduce physical strain by helping users carry
 ## **Image Of Prototype**
 <img width="723" height="388" alt="Screenshot 2025-10-17 170346" src="https://github.com/user-attachments/assets/9b4a8d04-fe4d-46b3-8d8a-aa07c3643177" />
 
-
+## **Video Of Prototype Build**
+https://youtube.com/shorts/LTWfOVC-fHk?si=KMNfo4rb8dLnHhu_ 
 ---
 
 ## **Conclusion**
