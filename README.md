@@ -172,7 +172,12 @@ The objective of AutoNanoBot is to reduce physical strain by helping users carry
 <img width="723" height="388" alt="Screenshot 2025-10-17 170346" src="https://github.com/user-attachments/assets/9b4a8d04-fe4d-46b3-8d8a-aa07c3643177" />
 
 ## **Video Of Prototype Build**
-https://youtube.com/shorts/LTWfOVC-fHk?si=KMNfo4rb8dLnHhu_ 
+Part 1
+https://youtube.com/shorts/GkdNCs1A9_Y?si=Wy2H7o-BhZZOj7p7
+
+Part 2
+https://youtube.com/shorts/79o_2gL748g?si=S5iLY1m_dCD7KWpM
+
 ---
 
 ## **Conclusion**
